@@ -1,0 +1,62 @@
+
+		/* Bar style */
+		.bar {
+			background-color: #333333;
+			color: white;
+			padding: 10px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		/* Button style */
+		.btn {
+			background-color: #555555;
+			color: white;
+			padding: 10px 20px;
+			border-radius: 5px;
+			text-decoration: none;
+			margin-left: 10px;
+		}
+		/* Name style */
+		.name {
+			text-align: center;
+			font-size: 48px;
+			margin-top: 50px;
+			text-transform: uppercase;
+		}
+		/* Image style */
+		.img {
+			position: absolute;
+			top: 90px;
+			right: 50px;
+			width: 300px; /* adjust the width as needed */
+			height: auto;
+			border-radius: 5px;
+		}
+		/* Resume style */
+		.resume {
+			display: flex;
+			flex-direction: column;
+			margin-left: 50px;
+			margin-top: 50px;
+		}
+		.resume h2 {
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+		.resume p {
+			font-size: 18px;
+			margin: 0;
+			margin-bottom: 10px;
+		}
+		/* Top and bottom margins for the resume */
+		.resume > *:first-child {
+			margin-top: 0;
+		}
+		.resume > *:last-child {
+			margin-bottom: 0;
+		}
+		/* Animated background style */
+		body {
+			background-color: #f1f1f1;
+		}

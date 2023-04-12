@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ahnaf Taiyeb - Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!-- Top bar -->
+	<div class="bar">
+		<div>
+			<button class="btn">About</button>
+			<button class="btn">FAQ</button>
+			<button class="btn">Links</button>
+		</div>
+		<div>
+			<span>Ahnaf Taiyeb</span>
+		</div>
+	</div>
+	<!-- Name, image, and Resume -->
+	<div>
+		<!-- Name -->
+		<h1 class="name">Ahnaf Taiyeb</h1>
+		<!-- Image -->
+		<img src="prfl.jpg" alt="your_image_alt_text" class="img">
+		<!-- Resume -->
+		<div class="resume">
+			<h2>Education</h2>
+			<p>Bachelor of Science in Computer Science, Canadian University of Bangladesh, 2022 - Present</p>
+			<p>Higher Secondary Certificate (HSC), Dhaka Board, Mothijheel Govt. College, 2017 - 2019</p>
+			<h2>Skills</h2>
+			<p>Programming languages: Python</p>
+			<p>Database management: MySQL</p>
+			<p>Web development: HTML, CSS, JavaScript</p>
+			<h2>Experience</h2>
+			<p></p>
+		</div>
+	</div>
+</body>
+</html>
